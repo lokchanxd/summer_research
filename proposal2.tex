@@ -1,0 +1,61 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\graphicspath{{pic/}}
+\author{Wing Lok Chan, Zhilong Franklin Wang}
+\title{Summer Research Project Proposal}
+\begin{document}
+\maketitle
+\newpage
+\section{Background}
+This project is to model the waveform of the system whose orbit is eccentric and possess precession. Then, the waveform is used to compare with the lensed waveform. We will investigate the probability that the modeled waveform will be mis-identified as lensed waveform.
+\subsection{Precession}
+Precession is a change in the orientation of the rotational axis of a rotating body.
+\subsection{Eccentricity}
+The orbital eccentricity of an astronomical object is a dimensionless parameter that determines the amount by which its orbit around another body deviates from a perfect circle. A value of 0 is a circular orbit, values between 0 and 1 form an elliptic orbit, 1 is a parabolic escape orbit, and greater than 1 is a hyperbola.\\
+The eccentricity can change the angular speed of the black hole. Then, the frequency of the gravitaional wave will be changed.
+\subsection{Gravitational Lensing}
+A massive object can distort the space-time. The path of the light will be bent towards the center of the massive object. This is similar to the convex lens, which can also bend the light towards the center. As the light is focused, the image of the object will brighter. Unlike an optical lens, a gravitational lens produces a maximum deflection of light that passes closest to its center, and a minimum deflection of light that travels furthest from its center. As a result, a gravitational lens has focal line instead of focal point. Moreover, there can more than one image of an object.
+\subsubsection{Strong Lensing}
+There are easily visible distortions such as the formation of Einstein rings, arcs, and multiple images.
+\subsubsection{Microlensing}
+The shape of the object is not distorted. The brightless of the object is, however, increased. This can be used to detect planet that are extremely far form the Earth.
+\subsubsection{Weak Lensing}
+The distortion is much smaller than strong lensing. Weak lensing is mainly used to determine the mass of the lensing star or cluster.
+\section{Objective}
+\begin{itemize}
+\item Have a genuine understanding of general relativity (in particular, gravitational waves)
+\item Master (at least know the essence of) the technique of searching for an answer.
+\item Be able to use the terminal.
+\item Understand usage of python and makefiles.
+\item Appreciate the happiness in doing research and front-line physics.
+\item Enjoy the pleasure of working in a research group.
+\item Know how to read and write an academic paper.
+\item Be able to read, write and utilize gravitational-wave data.
+\end{itemize}
+\section{Roadmap}
+{\bf May 13, 2019} Start of training for the summer research project\\ \\
+{\bf June 3, 2019} Start to write up programs to generate waveforms using different calculation methods\\ \\
+{\bf July 2019} Start to model lensed waveform\\ \\
+{\bf middle of July} Compare the lensed waveform that with eccentricity and precession and investigate the probability of mis-identifying
+\section{Interim Report}
+In the first few weeks, we have read some chapters about general relativity and data analysis. In week 4, we start to use a python script named cbcwaveform.py to generate wwaveform with different parameters such as the mass and spin.
+\newpage
+\begin{figure}[h]
+\includegraphics[scale=0.8]{coinc6711792.png}
+\caption{Comparing two packages}
+\end{figure}
+The amplitude of waveform of TaylorF2 is larger than that of IMRPhennomPv2. Also, the merger phase of IMRPhenomPV2 start later than that of TaylorF2. The duration of the waveform of TaylorF2 is shorter. 
+\begin{figure}[h]
+\includegraphics[scale=0.8]{different_mass.pdf}
+\caption{Comparing waveform of different mass}
+\end{figure}
+\newpage
+According to figure 2, the larger the mass, the shorter the duration and the larger the amplitude.
+\begin{figure}
+\includegraphics[scale=0.8]{•}
+\end{figure}
+\end{document}
